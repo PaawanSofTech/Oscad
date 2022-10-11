@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -66,9 +66,9 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.html" class="active">Home</a></li>                  
+                        <li><a href="index.html">Home</a></li>                  
                         <li><a href="details.html">Price Details</a></li>
-                        <li><a href="author.html">Author</a></li>
+                        <li><a href="author.html" class="active">Author</a></li>
                         <li><a href="create.html">Get Yours</a></li>
                     </ul>   
                     <a class='menu-trigger'>
@@ -82,37 +82,102 @@
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <!-- ***** Main Banner Area Start ***** -->
-  <div class="main-banner">
+  <div class="page-heading normal-space">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="header-text">
-            <h6>OSCAD</h6>
-            <h2>We Develops easily.</h2>
-            <p>OSCAD is a professional web designing alliance who makes websites/webpages in just some couple of dollars.</p>
-            <div class="buttons">
-              <div class="main-button">
-                <a href="https://youtube.com/c/PaawanSofTech" target="_blank">Watch Our Videos</a>
-              </div>
+        <div class="col-lg-12">
+          <h6>OSCAD</h6>
+          <h2>View Details For Author</h2>
+          <span>Home > <a href="#">Author</a></span>
+          <div class="buttons">
+            <div class="main-button">
+              <a href="create.html">Create Your website</a>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-5 offset-lg-1">
-          <div class="owl-banner owl-carousel">
-            <div class="item">
-              <img src="assets/images/banner-01.png" alt="">
-            </div>
-            <div class="item">
-              <img src="assets/images/banner-02.png" alt="">
-            </div>
+           </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- ***** Main Banner Area End ***** -->
-  
+
+  <div class="item-details-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2>Know more about <em>Me</em> Here.</h2>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="left-image">
+            <img src="assets/images/me.png" alt="" style="border-radius: 20px;">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h4>Paawan SofTech</h4>
+          <span class="author">
+            <img src="assets/images/ps.png" alt="" style="max-width: 50px; border-radius: 50%;">
+            <h6>Owner</h6>
+          </span>
+          <p>I'm a student in a private engineering college in India and currently pursueing my Bechlor's in Technology in Data Science, I Owns <em><a href="https://mysites.oscad.cf"> Multiple Sites </a></em> & I created them myself.</p>
+          <div class="row">
+            <div class="col-3">
+              <span class="bid">
+                Education:<br><strong>B.Tech</strong><br><em>(1st Semester)</em>
+              </span>
+            </div>
+            <div class="col-4">
+              <span class="owner">
+                Websites I own<br><strong>11</strong><br><em>(4 are under construction)</em>
+              </span>
+            </div>
+            <div class="col-5">
+              <span class="ends">
+                Graduating In<br><strong>	
+<!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sept 30, 2026 24:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+						   </strong><em>(Estimated to be in 2026.)</em>
+              </span>
+			</div>
+          </div>
+		</div>
+	  </div>
+	 </div>
+   </div>
+
   <div class="categories-collections">
     <div class="container">
       <div class="row">
@@ -122,7 +187,7 @@
               <div class="col-lg-12">
                 <div class="section-heading">
                   <div class="line-dec"></div>
-                  <h2>Browse Through Our <em>Creations</em> Here.</h2>
+                  <h2>My <em>Creations</em> </h2>
                 </div>
               </div>
               <div class="col-lg-2 col-sm-6">
