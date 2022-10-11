@@ -997,7 +997,7 @@ Create NFT Style
   background-image: url(../images/Moon.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
   padding: 120px 0px;
   position: relative;
 }
