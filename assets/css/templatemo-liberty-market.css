@@ -843,13 +843,13 @@ Categories & Collections Style
 }
 
 .categories .item .icon {
-  width: 62px;
+  width: 124px;
   height: 62px;
   display: inline-block;
   text-align: center;
   line-height: 62px;
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 .categories .item .icon img {
