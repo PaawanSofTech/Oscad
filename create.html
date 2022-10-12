@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="assets/css/contact.css">
 
   </head>
+<complete-body>
 
 <body>
 	<body>
@@ -101,109 +102,98 @@
         <div class="col-lg-12">
           <div class="section-heading">
             <div class="line-dec"></div>
-            <h2>Fill up For <em>Your Website</em> Here.</h2>
+            <h2>Fill up this <em>Form</em></h2>
           </div>
+		  
     <!-- CONTACT US START -->
     <section class="section bg-light" id="contact">
         <div class="container">
-            <!-- row end -->
-
-    <div class="row">
-      <div class="col-lg-50">
-         <div class="contact-box p-5">
             <div class="row">
-               <div class="col-lg-8 col-md-6">
-                  <div class="custom-form p-3">
-                     <div id="message"></div>
-						<form action="https://postmail.invotes.com/send"
-						method="post" id="email_form">
-                       <div class="row">
-                          <div class="col-lg-6">
-                            <div class="form-group app-label">
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Name (Not necessary)">
-                            </div>
-                          </div>
-			<!-- col end -->
-						<div class="col-lg-6">
-							<div class="text">
-							<small text="text-white"> (We care about your privacy) </small>
-							</div>
-						</div>
-            <!-- col end -->
-						<div class="col-lg-12">
-                            <div class="form-group app-label">
-								<input type="text" class="form-control" pattern=".+@.+" name="subject" placeholder="Email" />
-                            </div>
-                        </div>
-            <!-- col end -->
-                        <div class="col-lg-12">
-                            <div class="form-group app-label">
-                                 <textarea name="text" rows="5" style="background-color: #060113;color:#fff;" class="form-control" placeholder="Please let us know, Which kind of website you want?"></textarea>
-                            </div>
-                        </div>
-						<br>
-							<input type="hidden" name="access_token" value="eev0y4s8tc8s5m4mvogy02i3" />
-									<!-- return urls can be fully qualified -OR-
-										start with / for root relative -OR-
-										start with . for url relative --> 
-							<input type="hidden" name="success_url" value="." />
-							<input type="hidden" name="error_url" value="." />
-
-            <!-- col end -->
-                       </div>
-					   
             <!-- row end -->
-			
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom" value="Send Message">
-                          <div id="simple-msg"></div>
-                      </div>
-            <!-- col end -->
-                    </div>
-			     </div>
-            <!-- row end -->
-                        </form>
-                </div>
-				<div class="col-lg-4 col-md-5">
-                  <div class="contact-cantent p-3">
-                    <div class="contact-details">
-						<div class="float-left contact-icon mr-3 mt-2">
-							<i class="mdi mdi-headphones text-muted h5"></i>
-						</div>
-							<div class="app-contact-desc text-muted pt-1">
-								<p class="mb-0 info-title f-13">Call :</p>
-								<p class="mb-0 f-13"><a href="tel:+91 7976645581" class="text-muted">+91 7976645581 <br> <a href="tel:+81 357393341" class="text-muted"> +81 357393341</a></p>
-							</div>
-                    </div>
 
-                    <div class="contact-details mt-2">
-                        <div class="float-left contact-icon mr-3 mt-2">
-							<i class="mdi mdi-email-outline text-muted h5"></i>
-						</div>
-						<div class="app-contact-desc text-muted pt-1">
-                            <p class="mb-0 info-title f-13"> Email :</p>
-                            <p class="mb-0 f-13"><a href="mailto:animemines2004@gmail.com" class="text-muted">animemines2004@gmail.com</a></p>
-                        </div>
-					</div>
+            <div class="row">
+                <div class="col-lg-100">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6">
+                                <div class="custom-form p-3">
+                                    <div id="message"></div>
+										<form action="https://postmail.invotes.com/send"
+											method="post" id="email_form">
+											<div class="row">
+											<small style="color: #09001F; text-align: center">(Name isn't Necessary)</small>
+												<div class="col-lg-12">
+													<div class="form-group app-label">
+														<input name="name" id="name" type="text" class="form-control" style="background-color: #09001F;color: #fff" placeholder="Name">
+													</div>
+												</div>											
+                                            <div class="col-lg-12">
+                                                <div class="form-group app-label">
+                                                        <input type="text" class="form-control" style="background-color: #09001F;color: #fff" pattern=".+@.+" name="subject" placeholder="Email" required="yes" />
+                                                </div>
+                                            </div>
+                                            <!-- col end -->
+                                            <div class="col-lg-12">
+                                                <div class="form-group app-label">
+                                                    <textarea name="text" rows="5" class="form-control" style="background-color: #09001F;color: #fff; shape: rounded-rectangle" placeholder ="Website type" required="yes"></textarea>
+                                                </div>
+                                            </div>
+    <input type="hidden" name="access_token" value="eev0y4s8tc8s5m4mvogy02i3" />
+      <!-- return urls can be fully qualified -OR-
+         start with / for root relative -OR-
+         start with . for url relative --> 
+    <input type="hidden" name="success_url" value="." />
+    <input type="hidden" name="error_url" value="." />
 
-					<div class="contact-details mt-2">
-						<div class="float-centre contact-icon mr-3 mt-2">
-							<i class="mdi mdi-map-marker text-muted h5"></i>
-						</div>
-							<div class="app-contact-desc text-muted pt-1">
-								<p class="mb-0 info-title f-13">Location :<br>
-								<p class="mb-0 f-25"><a href="https://maps.app.goo.gl/NAqV93Ew6mtHuibd6" class="text-muted">~India</p>                                            
-								<p class="mb-2 text-muted f-13"> 36, Kailashpuri, Nandpuri, Malviya Nagar, Jaipur</p>
-								
-								<p class="mb-0 f-25"><a href="https://maps.app.goo.gl/w67KLJ5LwhtDx6iw9" class="text-muted">~Japan</p>                                            
-								<p class="mb-0 text-muted f-13"> T-120-0023, 42-4 Senjuakeono Adachi-ku, Tokyo</p>
-							</div>
-					</div>
-				  </div>
-				</div>
-			</div>
-            <!-- col end -->
+                                            <!-- col end -->
+                                        </div>
+										<br>
+                                        <!-- row end -->
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom" style="background-color: #09001F;color: #fff" value="Send Message">
+                                                <div id="simple-msg"></div>
+                                            </div>
+                                            <!-- col end -->
+                                        </div>
+                                        <!-- row end -->
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- col end -->
+
+                            <div class="col-lg-4 col-md-5">
+                                <div class="contact-cantent p-3">
+                                    <div class="contact-details">
+                                        <div class="app-contact-desc text-dark pt-1">
+                                            <p class="mb-0 text-dark f-13">Call :</p>
+                                            <p class="mb-0 f-13"><a href="tel:+91 7976645581" class="text-muted">+91 7976645581 <br> <a href="tel:+81 357393341" class="text-muted"> +81 357393341</a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-details mt-2">
+                                        <div class="float-left contact-icon mr-3 mt-2">
+                                            <i class="mdi mdi-email-outline text-muted h5"></i>
+                                        </div>
+                                        <div class="app-contact-desc text-muted pt-1">
+                                            <p class="mb-0 text-dark f-13"> Email :</p>
+                                            <p class="mb-0 f-13"><a href="mailto:animemines2004@gmail.com" class="text-muted">animemines2004@gmail.com</a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-details mt-2">
+                                        <div class="float-centre contact-icon mr-3 mt-2">
+                                            <i class="mdi mdi-map-marker text-muted h5"></i>
+                                        </div>
+                                        <div class="app-contact-desc text-muted pt-1">
+                                            <p class="mb-0 text-dark f-13">Location :<br>
+                                            <p class="mb-0 f-25"><a href="https://maps.app.goo.gl/NAqV93Ew6mtHuibd6" class="text-dark">~India</p>                                            
+                                            <p class="mb-2 text-muted f-13"> 36, Kailashpuri, Nandpuri, Malviya Nagar, Jaipur</p>
+
+                                            <p class="mb-0 f-25"><a href="https://maps.app.goo.gl/w67KLJ5LwhtDx6iw9" class="text-dark">~Japan</p>                                            
+                                            <p class="mb-0 text-muted f-13"> T-120-0023, 42-4 Senjuakeono Adachi-ku, Tokyo</p></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- col end -->
                         </div>
@@ -218,6 +208,8 @@
     </section>
     <!-- CONTACT US END -->
      </div>
+	</div>
+   </div>
   </div>
 
   <footer>
@@ -244,4 +236,5 @@
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
   </body>
+ </complete-body>
 </html>
