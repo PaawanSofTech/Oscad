@@ -1017,14 +1017,14 @@ Create NFT Style
 }
 
 .create-nft .item {
-  margin-top: 20px;
+  margin-top: 50px;
   position: relative;
 }
 
 .create-nft .first-item .number {
   position: absolute;
   right: 0;
-  top: -20px;
+  top: -40px;
 }
 
 .create-nft .first-item:after {
