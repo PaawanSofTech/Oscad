@@ -849,7 +849,7 @@ Categories & Collections Style
   text-align: center;
   line-height: 62px;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .categories .item .icon img {
